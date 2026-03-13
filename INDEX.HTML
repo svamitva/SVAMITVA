@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>SVAMITVA Government Portal</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#eef2f3;
+}
+
+header{
+background:#1b5e20;
+color:white;
+padding:15px 50px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
+}
+
+.hero{
+background:#2e7d32;
+color:white;
+padding:80px;
+text-align:center;
+}
+
+.hero h1{
+font-size:45px;
+}
+
+.container{
+padding:60px 10%;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.search-box{
+background:white;
+padding:40px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+max-width:700px;
+margin:auto;
+}
+
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+button{
+background:#1b5e20;
+color:white;
+border:none;
+padding:12px 25px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.login{
+max-width:400px;
+margin:auto;
+background:white;
+padding:40px;
+border-radius:8px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#333;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h2>SVAMITVA Portal</h2>
+
+<nav>
+<a href="#">Home</a>
+<a href="#services">Services</a>
+<a href="#search">Property Search</a>
+<a href="#login">Login</a>
+</nav>
+
+</header>
+
+<div class="hero">
+
+<h1>SVAMITVA Scheme Portal</h1>
+
+<p>
+Digital Property Records for Rural India
+</p>
+
+</div>
+
+<div class="container" id="services">
+
+<h2 style="text-align:center;margin-bottom:40px;">Citizen Services</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>Property Card</h3>
+<p>Download your property ownership card.</p>
+</div>
+
+<div class="card">
+<h3>Village Maps</h3>
+<p>Access digital village land maps.</p>
+</div>
+
+<div class="card">
+<h3>Survey Status</h3>
+<p>Check drone survey progress.</p>
+</div>
+
+<div class="card">
+<h3>Apply Services</h3>
+<p>Apply for property verification.</p>
+</div>
+
+</div>
+
+</div>
+
+<div class="container" id="search">
+
+<h2 style="text-align:center;margin-bottom:30px;">Property Search</h2>
+
+<div class="search-box">
+
+<input type="text" placeholder="Enter Property ID">
+
+<input type="text" placeholder="Enter Village Name">
+
+<button>Search Property</button>
+
+</div>
+
+</div>
+
+<div class="container" id="login">
+
+<h2 style="text-align:center;margin-bottom:30px;">Citizen Login</h2>
+
+<div class="login">
+
+<input type="text" placeholder="User ID">
+
+<input type="password" placeholder="Password">
+
+<button>Login</button>
+
+</div>
+
+</div>
+
+<footer>
+
+<p>© 2026 SVAMITVA Scheme Information Portal</p>
+
+</footer>
+
+</body>
+
+</html>
